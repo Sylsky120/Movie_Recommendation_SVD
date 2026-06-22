@@ -46,6 +46,26 @@ For User 1, the system recommended the following movies:
 4. Heathers (1989)
 5. L.A. Confidential (1997)
 
+## Model Selection
+
+The test RMSE under different latent factors k.
+
+![RMSE](figures/test_RMSE_vs_k.png)
+
+The lowest RMSE was obtained at k = 10.
+
+## Recommendation Analysis
+
+Comparison between user favorite genres and recommended movie genres.
+
+![Genre](figures/genre_comparison.png)
+
+## Recommendation Example
+
+Top 5 recommended movies for User 1.
+
+![Top5](figures/top5_recommendation_predicted_rating.png)
+
 ## Tools
 
 - Python
